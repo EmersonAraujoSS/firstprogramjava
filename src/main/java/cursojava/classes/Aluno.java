@@ -77,7 +77,7 @@ public class Aluno extends Pessoa {
 
         }
 
-        return somaNotas / disciplinas.size();
+        return somaNotas / disciplinas.size();  /*SIZE ele retorna quantas disciplinas tem na minha lista*/
     }
 
     public boolean getAlunoAprovado(){
@@ -128,7 +128,7 @@ public class Aluno extends Pessoa {
         return this.pessoaMaioridade() ? "Blz, vc é maior de idade" : "Opa, vc é menor de idade";
     }
 
-    @Override
+    @Override /*EQUALS E HASHCODE serve para diferenciar ou comparar se objetos são iguais */
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;

@@ -144,12 +144,12 @@ public class PrimeiraClasseJava {
             /*Imprime erro no console Java*/
             e.printStackTrace();
 
-            /*Mensagem do erro ou causa*/
+            /*Mensagem do erro ou causa CUSTOMIZADA*/
             System.out.println("Mensagem: " + e.getMessage());
 
             for (int posicao = 0; posicao < e.getStackTrace().length; posicao++){
 
-                saida.append("\n Classe de erro: " +e.getStackTrace()[posicao].getClassName());
+                saida.append("\n Classe de erro: " +e.getStackTrace()[posicao].getClassName());   /*append SIGNIFICA ADICIONAR*/
                 saida.append("\n Método de erro: " +e.getStackTrace()[posicao].getMethodName());
                 saida.append("\n Linha de erro: " +e.getStackTrace()[posicao].getLineNumber());
                 saida.append("\n Class: " +e.getClass().getName());
