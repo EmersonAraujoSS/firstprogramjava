@@ -15,7 +15,7 @@ public class ArrayVetor {
         String posicoes = JOptionPane.showInputDialog("Quantas posições o Array deve ter? ");
 
     /*Array pode ser de todos os tipos de dados e objetos também*/
-
+    //Criação de um ARRAY
     /*Array sempre deve ter a quantidade de posições definidas*/
         double[] notas = new double[Integer.parseInt(posicoes)];
 
@@ -70,7 +70,7 @@ public class ArrayVetor {
             System.out.println("Disciplina: " + d.getDisciplina());
             System.out.println("As notas das disciplinas são: ");
 
-            double notaMax = 0.0;
+            double notaMax = 0.0;   /*Descobrindo a maior nota*/
             for (int posicao =  0; posicao < d.getNota().length; posicao++){
                 System.out.println("Nota " + posicao + " é igual: " + d.getNota()[posicao]);
                 if (posicao == 0){

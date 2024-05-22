@@ -169,5 +169,10 @@ public class PrimeiraClasseJava {
         }
 
 
+        int numero = 0;
+        while (numero <= 10){
+            System.out.println("o numero atual e: " + numero);
+            numero++;
+        }
     }
 }

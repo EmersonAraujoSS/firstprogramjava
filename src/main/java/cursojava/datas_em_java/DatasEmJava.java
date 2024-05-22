@@ -50,7 +50,7 @@ public class DatasEmJava {
 
         simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
-        System.out.println("Data em formato para bando de dados: " + simpleDateFormat.format(date));
+        System.out.println("Data em formato para banco de dados: " + simpleDateFormat.format(date));
 
         System.out.println("Objeto Date: " + simpleDateFormat.parse("2002-05-25 07:07.7"));   /*PARSE recebe uma data em string*/
     }
